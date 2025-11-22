@@ -27,9 +27,9 @@ matplotlib==3.8.3
 # ==========================================
 # MACHINE LEARNING (Real model support)
 # ==========================================
-tensorflow==2.15.0
-keras==2.15.0
-scikit-learn==1.4.0
+tensorflow==2.16.1
+keras==3.3.3
+scikit-learn==1.5.1
 
 # ==========================================
 # OPTIONAL: Advanced Features
