@@ -99,8 +99,8 @@ if uploaded_file is not None:
         
         with col1:
             st.subheader("📷 Uploaded Image")
-            st.image(image, use_container_width=True)
-            
+            st.image(image, use_column_width=True)
+
             # Show image metadata in expander
             with st.expander("📊 Image Details"):
                 metadata = get_image_metadata(image)
